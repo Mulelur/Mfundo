@@ -8,7 +8,7 @@ export default function ExpertiseContainer() {
     <Expertise>
       <Expertise.Content>
         <Expertise.Text>
-          I charmaine Shabangu, I am a student at VUT who is so busy studying a
+          I Mfundo Tshabalala, I am a student at VUT who is so busy studying a
           field of engineering which is Industrial engineering.
         </Expertise.Text>
         <Expertise.Text>
@@ -23,7 +23,7 @@ export default function ExpertiseContainer() {
         <Expertise.Group>
           <Expertise.Title>High School Subjects</Expertise.Title>
           <Expertise.List>
-            {subjectData2.map((item) => {
+            {subjectData1.map((item) => {
               return <Expertise.ListItem>{item.sbj}</Expertise.ListItem>;
             })}
           </Expertise.List>
@@ -31,7 +31,7 @@ export default function ExpertiseContainer() {
         <Expertise.Group>
           <Expertise.Title>Modules</Expertise.Title>
           <Expertise.List>
-            {subjectData1.map((item) => {
+            {subjectData2.map((item) => {
               return <Expertise.ListItem>{item.sbj}</Expertise.ListItem>;
             })}
           </Expertise.List>
